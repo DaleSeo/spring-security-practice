@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.fail;
 public class SecurityContextHolderTest {
 
 	@Before
-	public final void setUp() {
+	public void setUp() {
 		SecurityContextHolder.setStrategyName(SecurityContextHolder.MODE_INHERITABLETHREADLOCAL);
 	}
 
