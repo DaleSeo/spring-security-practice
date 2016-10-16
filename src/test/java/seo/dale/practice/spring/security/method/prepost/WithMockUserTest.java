@@ -1,4 +1,4 @@
-package seo.dale.practice.spring.security.prepost;
+package seo.dale.practice.spring.security.method.prepost;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,8 +10,8 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
-import seo.dale.practice.spring.security.prepost.service.HelloMessageService;
-import seo.dale.practice.spring.security.prepost.service.MessageService;
+import seo.dale.practice.spring.security.method.prepost.service.HelloMessageService;
+import seo.dale.practice.spring.security.method.prepost.service.MessageService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

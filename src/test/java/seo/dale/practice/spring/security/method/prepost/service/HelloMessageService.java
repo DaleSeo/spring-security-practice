@@ -1,4 +1,4 @@
-package seo.dale.practice.spring.security.prepost.service;
+package seo.dale.practice.spring.security.method.prepost.service;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;

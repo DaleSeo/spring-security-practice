@@ -1,4 +1,4 @@
-package seo.dale.practice.spring.security.prepost.user;
+package seo.dale.practice.spring.security.method.prepost.user;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;

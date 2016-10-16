@@ -1,4 +1,4 @@
-package seo.dale.practice.spring.security.secured;
+package seo.dale.practice.spring.security.method.secured;
 
 import org.springframework.security.access.annotation.Secured;
 
