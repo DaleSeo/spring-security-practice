@@ -2,7 +2,7 @@ package seo.dale.practice.spring.security;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.authentication.TestingAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
@@ -22,7 +22,7 @@ public class SampleAuthenticationManagerTest {
 
 	@Test
 	public void testAuthenticate() {
-		Authentication request = new UsernamePasswordAuthenticationToken("user", "password");
+		Authentication request = new TestingAuthenticationToken("user", "password");
 		Authentication result = authenticationManager.authenticate(request);
 
 		System.out.println(result);
